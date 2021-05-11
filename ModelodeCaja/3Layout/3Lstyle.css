@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+div  {
+    display: inline;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    margin:0px;
+}
+
+
+.verde {   
+    background-color: green;    
+}
+
+
+.blanca {
+    background-color: white;
+    
+}
+
+
+.roja {
+    background-color: red;  
+
+}
+
+.deustchland  {
+    display: ;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-bottom: 300px;
+    margin:0px;
+}
+
+
+.negro {
+    background-color: black;
+}

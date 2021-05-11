@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: rgb(161, 209, 160);
+}
+
+.container {
+    background-color: rgb(245, 243, 243);
+    width: 300px;
+    height: 350px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px 0px rgb(138, 135, 135);
+    
+}
+
+h2 {
+    text-align: center;
+    padding: 5px; 
+    padding-top: 0px; 
+    margin-top:0px; 
+    font-weight: 600;
+}
+
+/* No se cómo hacerle el borde gris clarito al button*/
+
+button {
+    display: block;
+    background-color: white;
+    width: 170px;
+    border:rgb(209, 209, 209);
+    padding:6px;
+    border-radius: 20px;
+    margin:12px;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+    
+}
+
+#final {
+    background-color: black;
+    color: white;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+    height: 32px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px
+    
+    
+
+}
+
+#hola {
+    color: rgb(136, 136, 136);
+    font-weight: 600;
+}
+
+#obst {
+    font-weight: 400;
+}
