@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&display=swap');
+
+* {
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Quattrocento Sans', sans-serif;
+
+}
+
+body {
+    background: linear-gradient(90deg, rgba(68,212,216,1) 0%, rgba(26,176,184,1) 45%, rgba(86,191,236,1) 100%);
+}
+
+div {
+    border-style:initial;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+    padding: 18px 30px 30px 30px;
+    box-shadow: 1px 12px 10px  rgba(59, 92, 141, 0.438);
+    margin-top: 9%;
+}
+
+.cajita {
+    padding: 10px 15px;
+    margin: 9px;
+    border-radius: 3px;
+    border: 1px solid rgb(206, 204, 204);
+}
+
+#naranja {
+    border-left: 3px solid rgb(255, 123, 0);
+}
+
+#violeta {
+    border-left: 3px solid rgb(211, 96, 247);
+}
+
+#rojo {
+    border-left: 3px solid rgb(241, 92, 125);
+}
+
+.pchiquito {
+    color:gray;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.cajita {
+    font-weight: 600;
+    color: rgb(56, 55, 55);
+    font-size:15px;
+    padding: 20px;
+}
+
+#view {
+    display: inline;
+    margin-left: 120px;
+}
+
+#title {
+    display: inline;
+    font-weight: 600;
+}
+
+button {
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid rgb(192, 191, 191);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
