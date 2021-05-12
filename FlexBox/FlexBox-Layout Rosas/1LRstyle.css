@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+header {
+    background-color: orange;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60%;
+}
+
+footer {
+    background-color: brown;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+

@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: orange;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+}
+
+footer {
+    background-color: brown;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav {
+    background-color: rgb(81, 129, 81);
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
