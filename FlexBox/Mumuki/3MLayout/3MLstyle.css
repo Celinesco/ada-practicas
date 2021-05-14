@@ -1,0 +1,120 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(153, 110, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+.maincontainer {
+    display: block;
+    background-color: white;
+    padding: 40px 10px;
+    width: 470px;
+    height: 706px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 60px -10px rgb(13 28 39 / 60%);
+    text-align: center;
+    
+}
+
+.profilephoto {
+    margin-bottom: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color:rgb(236, 12, 124);
+    margin-top: 30px;
+    display: block;
+    font-size: 24px;
+}
+
+
+.location {
+    display: flex;
+    justify-content: center;
+    margin: 20px
+}
+
+.mediainfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 35px;
+}
+
+.profile-card {
+  padding: 10px 35px;
+  min-width: 150px;
+}
+
+.numeros {
+    font-weight: 700;
+    font-size: 25px;
+    color: #324e63;
+    margin-top: 10px;
+}
+
+.ffa {
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+p {
+    margin: 0;
+}
+
+.contactlinks {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+a {
+    margin: 10px;
+}
+
+strong {
+    margin-left:5px;
+}
+
+#gps {
+    margin-right: 9px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+#indiana {
+    margin-top: 10px
+}
+
+.follow {
+    background-color: rgb(236, 12, 124);
+    border-radius: 30px;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    box-shadow: 0px 7px 10px -5px rgb(119, 7, 69);
+    margin: 15px 35px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px
+}
