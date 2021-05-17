@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    background-color: rgb(48, 47, 47);
+    color: white;
+    text-align: center;
+}
+
+div {
+    width: 330px;
+    height: 567px;
+    background-color: rgb(65, 64, 64);
+    border-radius: 10px;
+    border: 1px solid rgb(165, 164, 164);
+    margin: 20px;
+}
+
+p {
+    font-size: 15px;
+    padding: 14px 20px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 8px 0px;
+    padding: 24px;
+}
+
+.ofertas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+ul {
+    text-align: left;
+    list-style: none;
+    padding: 30px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.precio {
+    font-size: 42px;
+    padding: 18px 0px 0px;
+    margin:0;
+
+}
+  
+  ul li:before {
+    content: '✓';
+    padding: 5px;
+  }
+
+  button {
+      background-color: #FFFFFFB3;
+      color:#21759B;
+      padding: 16px 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 7px;
+      width:260px;
+      cursor: pointer;
+  }
+
+  
+
+  div > .boton {
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+  }
+
+  #boton1 {
+      margin-top: 102px;
+  }
+
+  #boton2 {
+      margin-top: 42px;
+  }
+
+  #boton3 {
+      margin-top: 30px;
+  }
+
+  span {
+      font-size: 25px;
+      vertical-align: super;
+  }
