@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(240, 212, 170);
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: rgb(175, 128, 173);
+    height: 100px;
+    border: 1px solid black;
+    margin: 0px;
+    flex-basis: 25%;
+    margin: 5px 0px;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    flex-basis: 100%;
+}
+
+}
+
+.uno {
+    flex-grow: 1;
+    background-color: cadetblue;
+}
+
+.dos {
+    flex-grow: 1;
+    background-color: cadetblue;
+}
+
+.tres {
+    flex-basis: 50%;
+    background-color: cadetblue;
+}
