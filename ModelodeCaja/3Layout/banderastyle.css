@@ -18,17 +18,16 @@ body {
 section {
     width: 300px;
     height: 199px;
-    margin-bottom: 2px;
-    background-color: rgb(173, 177, 173);
+    margin: 2px 0px;
     margin-left: auto;
     margin-right: auto;
 }
 
 
 .vertical {
-    width: 97px;
+    width: 100px;
     height: 199px;
-    display: inline-block;
+    float: left;
 }
 
 .verde {
@@ -45,8 +44,9 @@ section {
 }
 
 .horizontal {
-    width: 298px;
+    width: 100%;
     height: 66px;
+    float:right;
 }
 
 .celeste {
@@ -63,15 +63,15 @@ section {
 
 .amarilloancho {
     background-color: rgb(255, 217, 0);
-    height: 100px;
+    height: 99px;
 }
 
 .azulfino {
     background-color: rgb(28, 28, 172);
-    height: 25%;;
+    height: 25%;
 }
 
 .rojofino {
     background-color: red;
-    height: 25%;;
+    height: 25%;
 }
