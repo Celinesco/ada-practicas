@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sigmar One', cursive;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color:black;
+}
+
+@media (min-width: 600px) and (max-width:900px) {
+    h1 {
+        font-size: 32px;
+    }
+    body {
+        background-color: thistle;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    body {
+        background-color: tomato;
+    }
+}
