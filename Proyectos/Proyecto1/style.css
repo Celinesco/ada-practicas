@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rock+Salt&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    /* text-align: center; */
+    overflow-x: hidden;
+}
+
+html, body {
+    height: 100%;
+    display: block;  
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+svg {
+    width: 60%;
+    margin-top: 6px;
+}
+
+
+h1 {
+    font-weight: bold;
+    color: rgb(255, 166, 0);
+    font-size: 300%;
+    padding-bottom: 5px;
+    font-family: 'Rock Salt', cursive;
+}
+
+h2 {
+    font-size: 200%;
+    font-weight: 1000;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 8px 0px;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 1000;
+    padding-bottom: 20px;
+}
+
+section {
+    padding: 110px 40px 130px;
+}
+
+/*---------------HEADER---------------------*/
+
+header {
+    padding: 20px 0;
+    background-color: black;
+    box-shadow: 0px 5px 8px #888888;
+    position: absolute;
+    width:100%;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.navheader {
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+
+#contactoheader {
+    font-weight: 600;
+    background-color: rgb(255, 166, 0);
+}
+
+
+/* ------SECCIONES---------- */
+
+
+/* ---SOBRE MI--- */
+
+.sobremi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 100vh;
+}
+
+.introtexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#imgpresentacion {
+    width: 50%;
+    height: auto;
+}
+
+.presentacion {
+    color: rgb(129, 126, 126);
+    font-size: 150%;
+    width: 80%;
+    text-align: left;
+}
+
+.boton {
+    font-size: 150%;
+    background-color: rgb(255, 166, 0);
+    width: 260px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px 0;
+}
+
+
+/* ---MIS CONOCIMIENTOS--------- */
+.conocimientos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+}
+
+.skillsjuntas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    max-width: 900px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid rgb(219, 218, 218);
+    width: 260px;
+    height: 260px ;
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px #b3b3b3;
+}
+
+
+/* ------CITA----- */
+
+.cita {
+    background: rgb(198,129,0);
+    background: linear-gradient(0deg, rgba(198,129,0,1) 1%, rgba(255,166,0,1) 51%, rgba(255,208,118,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#huevo {
+    margin-bottom: 25px;
+    width:6%;
+    height: auto;
+}
+
+q {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 170%;
+}
+
+#autor {
+    margin-top: 5%;
+    color: black;
+    font-weight: bolder;
+}
+
+
+/* -------------PROYECTOS------------ */
+
+.proyetoscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyect {
+    width: 400px;
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.proyect:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.imagenescontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    width: 900px; 
+}
+
+.imagenproyecto {
+    width: 300px;
+    height: auto;
+}
+
+    
+
+/* --------------------FOOTER------------------------- */
+
+.footer {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.iconosociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(226, 177, 43);
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin: 15px;
+    margin-bottom: 20px;
+}
+
+
+.nav {
+    margin: 20px 25px;
+}
+
+.skilldescription {
+    width: 50%;
+    text-align: center;
+}
+
+p {
+    color:gray;
+    font-size: 20px;
+}
+
+/* ---------------CONTACTO------- */
+
+.contact {
+    text-align: left;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px; 
+}
+
+.contact-column {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nombreyapellido {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* -----------DISPOSITIVOS MÓVILES ---------*/
+
+@media screen and (max-width: 900px) {
+    
+    html,body {
+        overflow-x: hidden;
+    }
+
+    header {
+        display: none;
+    }
+
+    /* ----INTRODUCCIÓN------ */
+    .sobremi {
+        flex-wrap: wrap;
+    }
+    #imgpresentacion {
+        min-width: 900px;
+    }
+    .introtexto {
+        align-items: center;
+    }
+    .presentacion {
+        text-align: center;
+    }
+
+
+    /* ------FOOTER----------- */
+    .footer1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer2 {
+        display: flex;
+    }
+
+    .iconosociales {
+        min-height: 30px;
+        min-width: 30px;
+    }
+    /* -------MIS CONOCIMIENTOS---------- */
+   
+    .skills {
+        width: 40%;
+        height: auto;
+    }
+
+    .skilldescription {
+        width: 100%;
+    }
+
+    /* CITA */
+    
+    #huevo {
+        width: 30%;
+    }
+
+    /* MIS PROYECTOS */
+
+    .imagenescontainer {
+        width:100vw;
+    }
+    .imagenproyecto {
+        width: 60vw;
+        height: auto;
+    }
+
+    .proyect {
+        width: 70vw;
+    }
+
+
+    
+}
