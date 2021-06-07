@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 2 Formularios</title>
+</head>
+<body>
+    <h1>Carga de productos</h1>
+    <form action="productos_description.html" method="GET" enctype="application/x-www-form-urlencoded">
+        <h2>Biciletas</h2>
+        <section class="brand-selection">
+            <label for="brand">Marca</label>
+            <input list="brands" id="brand" multiple="multiple">
+            <datalist id="brands">
+                <option value="Klatter"></option>
+                <option value="Top Mega"></option>
+                <option value="Fierce"></option>
+                <option value="Shimano"></option>
+                <option value="Lamborghini"></option>
+                <option value="Aurora"></option>
+                <option value="GT"></option>
+            </datalist>
+            </select>
+        </section>
+        <section class="rodado">
+            <label for="wheelsize">Rodado</label>
+            <input input="number" name="size_wheel" id="wheelsize" placeholder="28" maxlength="3"> 
+        </section>
+        <section class="categoriadeproducto">
+            <label for="category">Categorías de producto</label><br>
+            <label for="mountainbike">Mountain Bike</label>
+            <input type="radio" id="mountainbike" name="product_type" value="Mountain Bike">
+            <label for="paseo">Paseo</label>
+            <input type="radio" id="paseo" name="product_type" value="Paseo">
+            <label for="plegable">Plegable</label>
+            <input type="radio" id="plegable" name="product_type" value="Plegable">
+            <label for="carrera">Carrera</label>
+            <input type="radio" id="carrera" name="product_type" value="Carrera">
+        </section>
+        <label for="description">Descripicón del artículo</label><br>
+        <textarea name="product_description" id="description" cols="30" rows="10"></textarea>
+    </form>
+    
+</body>
+</html>
+
+
