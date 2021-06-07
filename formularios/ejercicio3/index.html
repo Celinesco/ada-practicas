@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 3 Formularios</title>
+</head>
+<body>
+    <form action="pago_cliente.html" method="POST" enctype="application/x-www-form-urlencoded">
+        <h1>Pago</h1>
+        <!-- Titular -->
+        <label for="nameuser">Nombre completo del titular</label>
+        <input type="text" id="nameuser" name="user_name" placeholder="Schostakovich, Dimitri Dmítrievich" required="required">
+        <!-- Número de Tarjeta -->
+        <label for="card">Número de tarjeta de crédito</label>
+        <input input=number id="card" name="card_number" maxlength="20" required="required">
+        <!-- Fecha de pago-->
+        <label for="fecha">Fecha</label>
+        <input type="month" id="fecha" name="month_payment" min="01-2021" max="12-2031" required pattern="[0-9]{2}-[0-9]{4}">
+        <label for="pass">Código de Seguridad</label>
+        <input type="password" id="pass" name="card_security_n" required="required" maxlength="3">
+        <input type="submit" value="Pagar">
+        
+
+    </form>
+    
+</body>
+</html>
