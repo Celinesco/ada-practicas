@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+input {
+    display: block;
+    margin: 10px
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type=checkbox] {
+    display: inline;
+}
