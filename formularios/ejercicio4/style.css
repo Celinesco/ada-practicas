@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color:rgb(95, 94, 94);
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 8px;
+    height: 550px;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+input[type=checkbox] {
+    width: auto;
+    height: auto;
+}
+
+.rows {
+    display: flex;
+}
+
+label {
+    display: block;
+    margin: 10px 0px;
+}
+
+input[type=email] {
+    width: 250px;
+}
+
+.column {
+    margin: 0px 5px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 11px;
+    color: rgb(131, 131, 131);
+}
+
+input[type=submit] {
+    background-color: rgb(68, 170, 211);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px #888888;;
+}
+
+#termsconditions {
+    font-size: 10px;
+}
+
+.ultima {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.checkmastext {
+    display: flex;
+    align-items: center;
+    color: rgb(131, 131, 131);
+    margin-left: 3px;
+    font-size: 15px;
+}
