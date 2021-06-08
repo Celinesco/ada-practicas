@@ -269,6 +269,6 @@ input {
   - Seleccionar todos los productos que no pertenezcan a la categoría "electronica" y ponerles un color rojo
 */
 
-.ejercicio-16:not([data-categoria="electronica"]) {
+.ejercicio-16 li:not([data-categoria="electronica"]) {
     color:red;
 }
