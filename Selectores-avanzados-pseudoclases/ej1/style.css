@@ -128,11 +128,19 @@ input {
   - Seleccionar los li pares y ponerles un color rojo 
 */
 
+.ejercicio-3 li:nth-child(even) {
+    color: red;
+}
+
 /* 
   Ejercicio 4
   ----------------------------------
   - Seleccionar los li pares a partir del 4to li y ponerles un color rojo
 */
+
+.ejercicio-4 li:nth-child(2n+4) {
+    color:red;
+}
 
 /* 
   Ejercicio 5
