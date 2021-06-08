@@ -197,6 +197,10 @@ input {
   - Seleccionar todos los elementos hermanos partir del 2do párrafo y ponerles un color rojo
 */
 
+.ejercicio-10 div ~ p {
+    color: red;
+}
+
 
 /* 
   Ejercicio 11
