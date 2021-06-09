@@ -184,22 +184,26 @@
                 <section class="contact-column">
                     <h3>Escribime</h3>
                     <form action="datos_usuario.html" method="POST">
-                        <div class="nombreyapellido">
-                            <div class="form-control">
+                        <div class="rows">
+                        <!-- Nombre -->
+                            <div class="column">
                                 <label for="fname">Nombre *</label>
                                 <input type="text" id="fname" name="fname" placeholder="p. ej.: Ada">
                             </div>
-                            <div class="form-control">
+                        <!-- Apellido -->
+                            <div class="column">
                                 <label for="lname">Apellido *</label>
                                 <input type="text" id="lname" name="lname" placeholder="p. ej.: Lovelace">
                             </div>
                         </div>
-                        <div class="form-control">
-                            <label for="mail">Email *</label><br>
+                        <!-- Email -->
+                        <div class="column">
+                            <label for="mail">Email *</label>
                             <input type="email" id="mail" name="email" placeholder="p. ej.:ada.lovelace@gmail.com">
                         </div>
-                        <div class="form-control">
-                            <label for="message">Mensaje *</label><br>
+                        <!-- Mensaje -->
+                        <div class="column">
+                            <label for="message">Mensaje *</label>
                             <textarea name="message" id="message" cols="25" row="15"
                                 placeholder="Escriba un mensaje aquí"></textarea><br>
                             <label for="enviar"></label>
