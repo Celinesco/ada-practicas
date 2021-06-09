@@ -226,7 +226,6 @@ q {
     height: auto;
 }
 
-    
 
 /* --------------------FOOTER------------------------- */
 
@@ -271,12 +270,15 @@ p {
     text-align: left;
     background-color: rgb(221, 221, 221);
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .contact-column {
-    padding-left: 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
+    width:50%;
 }
 
 .rows {
