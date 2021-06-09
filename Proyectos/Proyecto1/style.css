@@ -31,7 +31,6 @@ svg {
     margin-top: 6px;
 }
 
-
 h1 {
     font-weight: bold;
     color: rgb(255, 166, 0);
@@ -95,11 +94,17 @@ header {
 
 .sobremi {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-right: 10%;
     margin-left: 10%;
     height: 100vh;
+}
+
+.column-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
 }
 
 .introtexto {
@@ -109,9 +114,9 @@ header {
     align-items: flex-start;
 }
 
-#imgpresentacion {
-    width: 50%;
-    height: auto;
+.imgpresentacion {
+    max-width: 600px;
+    display: block;
 }
 
 .presentacion {
@@ -329,7 +334,7 @@ input[type="submit"] {
 
 /* -----------DISPOSITIVOS MÓVILES ---------*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     
     html,body {
         overflow-x: hidden;
@@ -340,15 +345,16 @@ input[type="submit"] {
     }
 
     /* ----INTRODUCCIÓN------ */
+    
     .sobremi {
-        flex-wrap: wrap;
-    }
-    #imgpresentacion {
-        min-width: 900px;
-    }
-    .introtexto {
+        display:flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
         align-items: center;
     }
+
+       
     .presentacion {
         text-align: center;
     }
@@ -407,5 +413,12 @@ input[type="submit"] {
     .contact-column {
         width: 100%;
     }
+
+    .columna1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    
     
 }
