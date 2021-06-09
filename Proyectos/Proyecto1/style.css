@@ -271,7 +271,6 @@ p {
     background-color: rgb(221, 221, 221);
     border-radius: 10px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .contact-column {
@@ -399,6 +398,13 @@ input[type="submit"] {
         width: 70vw;
     }
 
+    /* Contactame */
+    .contact {
+        flex-direction: column;
+    }
 
+    .contact-column {
+        width: 100%;
+    }
     
 }
